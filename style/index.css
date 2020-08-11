@@ -117,12 +117,88 @@ img {
   margin: 45px;
 }
 
-@media (max-width: 500px) {
+@media(max-width:800px){
+
+
   body {
-    width: 500px;
+    width: 100%;
+    background-color:teal;
   }
   header {
     width: 100%;
+    background-color:#367588; 
+  }
+  header h1 {
+    text-align: center;
+  }
+  nav {
+    flex-direction: column;
+    margin: 0 auto;
+    width: 50%;
+  }
+  
+  .headWrapper {
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+  
+  img {
+    width: 100%;
+    padding: 50px;
+  }
+  .right {
+    width: 100%;
+    align-items: center;
+  }
+  .rowOne{
+    flex-wrap:wrap;
+    width:100%;
+  }
+  .rowOne div{
+    width:50%;
+  }
+  .rowOne div img{
+    padding:8%;
+    width:100%;
+    height:400px;
+    
+  }
+  .rowTwo{
+    flex-wrap:wrap;
+    width:100%;
+  }
+  .rowTwo div{
+    width:50%;
+  }
+  .rowTwo div img{
+    padding:8%;
+    width:100%;
+    height:400px;
+  }
+  h2{
+    font-size:2rem;
+  }
+  button a{
+    font-size: 1.5rem;
+  }
+  .footer button{
+    margin-top:25px;
+  }
+  }
+  
+  
+
+@media (max-width: 500px) {
+  body {
+    width: 500px;
+    background-color:#367588;
+  }
+  header {
+    width: 100%;
+    background-color:teal;
   }
   header h1 {
     text-align: center;
@@ -149,6 +225,12 @@ img {
     width: 100%;
     align-items: center;
   }
+  .right button{
+    width:30%;
+  }
+  .right button a{
+    font-size: 1.2rem;
+  }
   .rowOne{
     flex-wrap:wrap;
     width:100%;
@@ -170,73 +252,5 @@ img {
     padding:8%;
   }
 }
-@media(max-width:800px){
 
-
-body {
-  width: 100%;
-}
-header {
-  width: 100%;
-}
-header h1 {
-  text-align: center;
-}
-nav {
-  flex-direction: column;
-  margin: 0 auto;
-  width: 50%;
-}
-
-.headWrapper {
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
-  padding: 0;
-  text-align: center;
-}
-
-img {
-  width: 100%;
-  padding: 50px;
-}
-.right {
-  width: 100%;
-  align-items: center;
-}
-.rowOne{
-  flex-wrap:wrap;
-  width:100%;
-}
-.rowOne div{
-  width:50%;
-}
-.rowOne div img{
-  padding:8%;
-  width:100%;
-  height:400px;
-  
-}
-.rowTwo{
-  flex-wrap:wrap;
-  width:100%;
-}
-.rowTwo div{
-  width:50%;
-}
-.rowTwo div img{
-  padding:8%;
-  width:100%;
-  height:400px;
-}
-h2{
-  font-size:2rem;
-}
-button a{
-  font-size: 1.5rem;
-}
-.footer button{
-  margin-top:25px;
-}
-}
 
